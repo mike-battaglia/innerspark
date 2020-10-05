@@ -1,0 +1,266 @@
+/* Fonts and Typography */
+
+body, p, .wp-block-button a, ul, ol {
+    font-family: 'Comfortaa'!important;
+	color: #553333;
+}
+
+footer p, .footer-inner p, .footer-inner li {
+	color: #ffffff;
+}
+
+.footer-inner a {
+	color: #ffdddd;
+}
+
+.primary-menu-wrapper a {
+	color: #ffeeee!important;
+}
+
+@font-face {
+  font-family: 'celestial';
+  src: url('/innerspark/wp-content/uploads/2020/09/Celestial-Typeface.otf');
+}
+
+@font-face {
+  font-family: 'holtzman';
+  src: url('/innerspark/wp-content/uploads/2020/09/Holtzman-Textured.otf');
+}
+
+h1, h3, .site-title {
+	font-family: 'celestial'!important;
+	font-weight: 400!important;
+	letter-spacing: 0.1px;
+}
+
+h2 {
+	font-family: 'holtzman'!important;
+	font-weight: 400!important;
+	letter-spacing: 0.1px
+}
+
+p a {
+	font-weight: 600;
+	color: #10b29a;
+}
+
+/* Block Groups */
+
+.wp-block-group.group-white {
+	background-color: #ffffff;
+	padding: 24px;
+	border-radius: 24px;
+	color: #553333;
+}
+
+.wp-block-group.group-teal {
+	background-color: #AADDDD;
+	padding: 24px;
+	border-radius: 24px;
+	color: #553333;
+}
+
+.wp-block-group.group-pink {
+	background-color: #eedddd;
+	padding: 24px;
+	border-radius: 24px;
+}
+
+.wp-block-group.group-pink h1, 
+.wp-block-group.group-pink h2, 
+.wp-block-group.group-pink h3,
+.wp-block-group.group-pink p {
+	color: #553333!important;
+}
+
+.wp-block-group.group-brown {
+	background-color: #554444;
+	padding: 24px;
+	border-radius: 24px;
+	color: #eedddd!important;
+}
+
+.wp-block-group.group-brown p {
+	color: #ffffff;
+}
+
+.wp-block-group.group-brown p a {
+	color: #aadddd!important;
+}
+
+/* Button Styles */
+
+.button {
+	background-color: #553333;
+	border-radius: 12px;
+	border-style: solid;
+	text-transform: none;
+}
+
+.button {
+	font-family: 'Comfortaa'!important;
+}
+
+.wc-block-grid__product-add-to-cart a {
+	background-color: #10b29a;
+	border-radius: 12px!important;
+	color: #ffffff;
+	border-style: solid;
+}
+
+.wp-block-button, .wp-block-button__link {
+	border-radius: 12px;
+}
+
+.wp-block-button a {
+	text-transform: none;
+}
+
+/* Default Button */
+.button-teal-white a, .wp-block-button__link {
+	border-radius: 12px;
+	border-color: #10b29a;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #ffffff;
+	color: #10b29a!important;
+}
+
+.button-white-teal a {
+	border-radius: 12px;
+	border-color: #ffffff;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #10b29a;
+	color: #ffffff!important;
+}
+
+.button-white-brown a {
+	border-radius: 12px;
+	border-color: #ffffff;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #553333;
+	color: #ffffff!important;
+}
+
+.button-brown-white a {
+	border-radius: 12px;
+	border-color: #553333;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #ffffff;
+	color: #553333!important;
+}
+
+.button-brown-pink a {
+	border-radius: 12px;
+	border-color: #553333;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #EEDDDD;
+	color: #553333!important;
+}
+
+.button-pink-brown a {
+	border-radius: 12px;
+	border-color: #eedddd;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #553333;
+	color: #eedddd!important;
+}
+
+.button-brown-teal a {
+	border-radius: 12px;
+	border-color: #553333;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #AADDDD;
+	color: #553333!important;
+}
+
+.button-teal-brown a {
+	border-radius: 12px;
+	border-color: #AADDDD;
+	border-width: 2px;
+	border-style: solid;
+	background-color: #553333;
+	color: #AADDDD!important;
+}
+
+/* Special Effects */
+
+.is-round img {
+	border-radius: 50%;
+}
+
+.is-rounded img {
+	border-radius: 24px;
+}
+
+.has-shadow {
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+}
+
+.is-shadowed img {
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);	
+}
+
+.has-glow {
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.5); 
+box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.5);
+}
+
+.is-glowing img {
+	-webkit-box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.3); 
+box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.3);
+}
+
+/* Misc and Woocommerce */
+
+.onsale {
+	background-color: #10b29a;
+}
+
+tr {
+	background-color: #ffeeee
+}
+
+table {
+		-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+	border-radius: 12px;
+}
+
+.woocommerce-tabs ul li.active a {
+	color: #10b29a!important;
+	box-shadow: 0 2px 0 #10b29a;
+}
+
+.woocommerce-message {
+	border-radius: 24px;
+	border-style: solid;
+	color: #fff;
+	background-color: #533;
+	font-family:'Comfortaa';
+}
+
+.woocommerce-info {
+	background-color: #fff;
+	border-top-color: #10b29a;
+}
+
+/* 2020 Theme */
+
+.alignfull {
+	margin-top: 0px!important;
+	margin-bottom: 0px!important;
+	border-radius: 0px!important;
+}
+
+.upside-down {
+	  transform:rotateZ(180deg);
+}
